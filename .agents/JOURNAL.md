@@ -18,6 +18,11 @@ Promotion is explicit — at session close, the agent asks whether the session p
 
 When this file grows past ~500 lines, move the older entries into `archive/JOURNAL-<year>.md`.
 
+## 2026-06-23 | alvaro | Meta-repo bootstrap: PROJECT_RULES.md configured
+
+This fork was identified as a meta-repo (simultaneously uses and develops Lead Protocol) but had never been configured as one — `PROJECT_RULES.md` was still the generic template skeleton. Filled in the real project identity: framework + CLI + React/Vite/XYFlow console UI, active agents (Claude Code, Codex), language rules, and quality checklist. Activated `meta-repo` and `git-substrate` modules in `§J8`. Added `§J9` making explicit that root `PROJECT_RULES.md` is fork-specific and must never be included in upstream PRs to `mmilanez/lead-protocol`. Merged to fork `main` via PR #1; cleaned up `feacture-ui` branch. Next session opens `feature/ui-console`.
+Refs: `.agents/PROJECT_RULES.md`, `alacr555/lead-protocol` PR #1
+
 ---
 
 *(No entries yet — this file accumulates as the project ships.)*
